@@ -22,7 +22,7 @@ with open(file_w_path, encoding='utf-8') as file:
         file.readline()
 
 #Проверяем, что книга рецептов в правильном формате
-# pprint(cook_book)
+pprint(cook_book)
 
 #Задача 2. Определяем функцию для формирования спика покупок
 def get_shop_list_by_dishes(dishes, person_count):
