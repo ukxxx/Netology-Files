@@ -42,7 +42,6 @@ def get_shop_list_by_dishes(dishes, person_count):
 pprint(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2))
 
 #Задача 3. Объединяем файлы по условию из задания.
-folder = 'Exercise 3'
 file_1 = '1.txt'
 file_2 = '2.txt'
 file_3 = '3.txt'
@@ -66,3 +65,4 @@ with open(file_res, 'w', encoding='utf-8') as file:
 
 #Открыв файл, убеждаемся, что формат соответствует заданному    
 
+#Задание 4 выполнено.
